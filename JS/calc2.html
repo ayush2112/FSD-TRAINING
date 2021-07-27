@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>  
+<script>  
+  
+const number1 = parseFloat(prompt ('Enter the first number: '));  
+
+const operator = prompt('Enter operator ( either +, -, * or / ): ');  
+const number2 = parseFloat(prompt ('Enter the second number: '));  
+  
+let result; 
+if (operator == '+') { 
+    result = number1 + number2;  
+    window.alert(" Result is" + result);  
+}  
+else if (operator == '-') {   
+    result = number1 - number2;  
+    window.alert(" Result is" + result);  
+}  
+else if (operator == '*') {   
+    result = number1 * number2;  
+    window.alert(" Result is" + result);  
+}
+else if (operator == '/'){
+    result = number1/number2;
+    window.alert(" Result is" + result);  
+}  
+else {  
+    window.alert("Something is wrong");  
+}  
+  
+  
+
+</script>  
+<body>  
+</html>
